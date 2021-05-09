@@ -5,7 +5,7 @@
 
 #app = Flask(__name__)
 
-#@app.route('/')
+#@app.route('/')*
       #(or @app.route('/meow')
 #def index():
   #return 'Hello from Pet Adoption' #After: return render_template('index.html') (...This sends message to browser to add hyper link)
@@ -41,7 +41,7 @@
                #<div>
                     #<h2>Pet's name</h2>
                     #<p>Age</p>
-                    #<p>Des</p>
+                    #<p>Description<#copy or write in a decription#/p>
                     
       #</body>
       #</body>
