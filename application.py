@@ -1,11 +1,12 @@
 
 #from Unit 5 Notes with Megan:
 
-#from flask import Flask, #render-template()
+#from flask import Flask #render-template, #()url_for
+#this connects html files under dirtory  to roots we created 
 
 #app = Flask(__name__)
 
-#@app.route('/')*
+#@app.route('/')n 
       #(or @app.route('/meow')
 #def index():
   #return 'Hello from Pet Adoption' #After: return render_template('index.html') (...This sends message to browser to add hyper link)
@@ -14,7 +15,13 @@
        #<h1>Pet Adoption</h1>
        #<button>Add Pet</button>
         #'''
-  
+ ##@app.route('/add-pet')
+ #def add_pet():
+ #return render_template('addpet.html')
+
+##@app.route('/pet')
+#def  pet():
+#       return render_template('pet.html')
   
   #if __name__== '__main__':
     #app.run(debug=True, part=8000, host='0.0.0.0')
@@ -29,6 +36,7 @@
            #<title>Pet Adoption</title>
            #<meta name="description" content="A collection ofadpted pets"
            #<meta name="viewport" content="width=device-width, initi..  
+           ##(add to syles.css) <link rel = "stylesheet" href="/static/css/styles.css"
       #</head>
       #<body>
           #<section>
@@ -43,6 +51,21 @@
                     #<p>Age</p>
                     #<p>Description<#copy or write in a decription#/p>
                     
+      #</form
       #</body>
-      #</body>
+      #</section>
+      #script src="/static/js/app.js"></script>
     #</html>
+
+#UNDER styles.css
+#root:{
+#   --primary
+#   --secondary
+#   --accent
+#   --background
+#}
+#{
+#font-family" 'sans-serif', 'romans', Arial;
+
+
+
