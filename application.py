@@ -39,8 +39,15 @@
            ##(add to syles.css) <link rel = "stylesheet" href="/static/css/styles.css"
       #</head>
       #<body>
-          #<section>
-               #<a href="#"></a>
+          #<section class="main-header">
+            
+               #<a href="{{ url_for('index')}}">
+                  #<h1 class="header">
+                        #i class="fas fa-paw"></i>
+                        #Pet Adoption 
+                        #</h1>
+                  
+                  #</a>
                    #h1>Pet Adoption</h1>
                #</a>
           #</section>
@@ -53,6 +60,8 @@
                     
       #</form
       #</body>
+      #<a class=add-pet.btn" href="{{url_for alt=add pet('add_pet')">
+      #</a>
       #</section>
       #script src="/static/js/app.js"></script>
     #</html>
