@@ -23,7 +23,7 @@
  #return render_template('addpet.html')
 ##to se our data let's also import reques up top 1
 #SO WHEN FORM ACTION IS SUBMITTED, BROWSER OOKS AT METHOD FORto do w. INFO. WERE ASKING flask to insert root for ADD_PET info..to send form method info as a rot/url, 
-###the appl receives and has access to data submitted by route bc of post request 
+###the appl receives and has access to data submitted by data bc route submits info or post request 
 
 ##@app.route('/pet')
 #def  pet():
